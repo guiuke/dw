@@ -1,0 +1,30 @@
+#sublinhado{
+    text-decoration: underline;
+}
+
+.fonte{
+    font-family: "Arial Black"
+}
+
+main p{
+    font-size: 12px;
+}
+
+main>p{
+    font-weight: 900;
+}
+
+ #sublinhar,.fonte,h2{
+    text-decoration: overline;
+}
+
+#primeiro{
+    background-color: #c00;
+    width: 200px;
+    height: 200px;
+}
+#segundo{
+    background-color: #0c0;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    place-items: center;
+}
+
+.quadro{
+    width: 100px;
+    height: 100px;
+}
+
+#azul{
+    background-color: #00f;
+    place-self: start;
+}
+
+#vermelho{
+    background-color: #f00;
+    place-self: end;
+}
+
+#verde{
+    background-color: #0f0;
+    place-self: center;
+    display: grid;
+    place-items: center;
+}
+
+#bola{
+    height: 50px;
+    width: 50px;
+    background-color: #888;
+    border: 2px solid #c00;
+    border-radius: 100%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head><meta charset="utf-8">
+        <title>Formularios</title>
+    </head>
+        <h1 align="center">Formulario</h1>
+        <hr size ="6" color="#A00">
+        <form name="Exemplo" action="#" method="post">
+            <label for="nome">Nome: </label><br>
+            <input type="text" name="nome" id="nome" size="40"><br>
+            <label for="senha">Senha: </label><br>
+            <input type="password" name="senha" id="senha" maxiengine="8"><br>
+            <label for="idade">Idade: </label><br>
+            <input type="number" name="idade" id="idade" step="0.5" min="14" max="200">
+            <label for="estciv">Estado civil</label>
+            <select name="estciv" id="estciv"><br>
+                <option value="cs">Casado</option>
+                <option value="Sl">Solteiro</option>
+                <option value="dv">Divorciado</option>
+                <option value="pns">Prefiro não responder</option>
+            </select>
+            <h3>Transporte</h3>
+            <label for="carro">Carro</label>
+            <input type="checkbox" name="carro" id="carro" value="car"><br>
+            <label for="moto">Moto</label>
+            <input type="checkbox" name="moto" id="moto" value="moto"><br>
+            <label for="bus">Transporte publico</label>
+            <input type="checkbox" name="bus" id="bus" value="bus">
+            <h3>Sexo</h3>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="masc" value="M"><br>
+            <label for="fem">Feminino</label>
+            <input type="radio" name="sexo" id="fem" value="F"><br>
+            <label for="msg">Deixe sua mensagem:</label>
+            <textarea name="msg" id="msg" rows="25" cols="100"></textarea>
+        </form>
+    </body>
+</html>

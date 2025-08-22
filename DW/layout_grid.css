@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: grid;
+    grid-template-columns: 2fr 20fr 4fr;
+    grid-template-rows: 2fr 20fr 2fr;
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho"
+    "menus conteudo aside"
+    "rodape rodape aside"
+    ;
+    
+}
+
+.site{
+    display: grid;
+}
+
+#cabecalho{
+ background-color: #0f0;
+ grid-area: cabecalho;
+ place-items: start center;
+
+}
+
+#menu{
+    background-color: #881fc4;
+    grid-area: menus;
+    place-items: center start;
+}
+#conteudo{
+    background-color: #f00;
+    grid-area: conteudo;
+    place-items: center;
+}
+
+#rodape{
+    background-color: #00f;
+    grid-area: rodape;
+    place-items: end center;
+}
+
+#aside{
+    background-color: #fff;
+    grid-area: aside;
+    place-items: center end;
+}
